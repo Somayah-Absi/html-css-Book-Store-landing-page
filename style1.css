@@ -236,5 +236,38 @@ height: 100px;
 display: flex;
 justify-content: center;
 }
+.newsletter{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./src/picture/تصميم\ بدون\ عنوان\ \(2\).png");
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+.newsletter .container{
+margin-top: 0;
+color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.newsletter button{
+padding: 5px;
+font-weight: bold;
+}
+.newsletter form{
+    margin: 20px;
+}
+.newsletter input{
+    width: 300px;
+    height: 30px;
+}
+.newsletter h2{
+font-weight:lighter;
+    font-size: 40px;
+}
+
 
 
